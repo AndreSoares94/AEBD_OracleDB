@@ -5,7 +5,7 @@ University Project for Database Management - course of Computer Engineering at U
 System that monotorizes an Oracle database by showing different parameters such as information about datafiles, memory, tablespaces, users, sessions, cpu, etc.
 
 This was made by creating an agent in Java that, by acessing administrator views and tables, collects the desired data and fills a new database which will be used to transform
-the data in a JSON format which will be posted to a website where we can monitor everything.
+the data in a JSON format through a REST API that will then POST everything to a website where we can monitor all the info.
 
 ## Who made this?
 [Ricardo Carvalho](https://github.com/rvcarvalho99)
